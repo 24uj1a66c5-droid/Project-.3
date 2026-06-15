@@ -1,0 +1,36 @@
+print("=== AI Recommendation System ===")
+
+print("\nChoose your interest:")
+print("1. Movies")
+print("2. Books")
+print("3. Music")
+print("4. Games")
+
+choice = input("Enter your choice (1-4): ")
+
+if choice == "1":
+    print("\nRecommended Movies:")
+    print("- Interstellar")
+    print("- Inception")
+    print("- Avatar")
+
+elif choice == "2":
+    print("\nRecommended Books:")
+    print("- Atomic Habits")
+    print("- Rich Dad Poor Dad")
+    print("- The Alchemist")
+
+elif choice == "3":
+    print("\nRecommended Music:")
+    print("- Shape of You")
+    print("- Blinding Lights")
+    print("- Perfect")
+
+elif choice == "4":
+    print("\nRecommended Games:")
+    print("- PUBG")
+    print("- Minecraft")
+    print("- Free Fire")
+
+else:
+    print("Invalid Choice!")
